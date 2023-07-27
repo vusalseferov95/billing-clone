@@ -1,5 +1,5 @@
 .icon {
-    display: flex;
+    display: inline-flex;
 }
 
 .icon-md {
@@ -11,6 +11,9 @@
     width: 55px;
     height: 55px;
 }
+
+.icon-profile {
+    background-image: url(/assets/images/prof-pic.png);}
 
 .icon-general {
     background-image: url(/images/general.png);

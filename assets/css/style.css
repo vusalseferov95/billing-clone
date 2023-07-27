@@ -1,4 +1,125 @@
-@import url(/assets/css/reset.css);
-@import url(/assets/css/icon.css);
-@import url(/assets/css/main.css);
-@import url(/assets/css/font.css);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1320px;
+    height: 880px;
+    margin: 0 auto;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-left {
+    width: 260px;
+    height: 880px;
+}
+
+.profile-pic figure {
+    width: 55px;
+    height: 55px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-name .name {
+    font-size: 16px;
+    color: #1A194D;
+}
+
+.profile-name .nick-name {
+    color: #62618F;
+}
+
+.navbar figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar figure span {
+    padding-right: 10px;
+}
+
+.log-out {
+    padding-top: 420px;
+}
+
+
+.page-content {
+    width: 800px;
+    height: 880px;
+}
+
+.table-head {
+    color: #62618F;
+    padding-left: 16px;
+    gap: 168px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.table-body {
+    color: #1A194D;
+    padding-left: 16px;
+    gap: 114px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.load-more {
+    padding-top: 50px;
+}
+
+.load-more button {
+    color: #ee4d38;
+    
+}
+
+.visa-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remove {
+    border-radius: 16px;
+}
+
+.page-right {
+    width: 260px;
+    height: 880px;
+}
+
+.red-box {
+    width: 260px;
+    height: 220px;
+    background-color: #EE4D38;
+    border-radius: 16px;
+    padding: 32px 32px 32px 32px;
+}
+
+.red-box p {
+    color: #fff;
+}
+
+.red-box button {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 32px;
+
+}
+
+.right-box {
+    padding-top: 140px;
+}
